@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    background-color: #B0BC98;
+    padding: 1em;
+}
+
+.header__text {
+    flex-direction: column;
+    margin: auto;
+}
+
+#title {
+    margin: auto;
+    font: 50px arial sans-serif;
+}
+
+#subtitle {
+    margin: auto;
+}
+
+#logo {
+    width: 10em;
+    height: 10em;
+}
+
+body {
+    background-color: #D9DDD0;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    background-color: #B0BC98;
+    padding: 1em;
+    flex-direction: column;
+}
+
+.footer__title {
+    margin: auto;
+    font: 25px arial sans-serif;
+}
+
+.footer__text {
+    margin: auto;
+}
+
+.fish {
+   
+}
+
+.fish {
+    
+}
+
+.fish_text {
+   z-index: 0;
+   position: relative;
+}
+
+.fish_image {
+    z-index: 1;
+}
+
+.fish_image:hover {
+    opacity: 50%;
+    position: relative;
+}
