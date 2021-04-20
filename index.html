@@ -4,36 +4,106 @@
     <meta charset="utf-8">
     <title>Martin's Aquarium</title>
     <link rel="stylesheet" href="./styles/main.css">
-  </head>
+</head>
   <body>
     <script type="module" src="./scripts/main.js"></script>
     <header class="header">
-        <img src="./images/martins-logo.png" alt="" id="logo">
+        <img src="./images/logo.jpg" alt="" class="header__logo">
         <div class="header__text">
-        <h1 id="title">Martin's Aquarium</h1>
-        <p id="subtitle">Exotic Fish and Where to Find Them</p>
+            <h1 class="header__title">Martin's Aquarium</h1>
+            <p class="header__subtitle">Exotic Fish and Where to Find Them</p>   
         </div>
     </header>
     <main>
         <article>
-            <section class="fish">
-                <h2>Martin's Fish</h2>
-                <img src="./images/flower-horn.jpg" alt="Flower Horn" class="fish_image">
-                <p class="fish_text">Flower Horn</p>
+            <section class="fishes">
+                <div class="fish__title">
+                    <h2>Martin's Fish</h2>
+                </div>
+                <div class="fishes__fish">
+                    <div class="fish">
+                        <img src="./images/fish_images/longnose_butterfly_fish.jpg" alt="Longnose Butterflyfish" class="fish__image">
+                        <p class="fish__text">Longnose Butterflyfish</p>
+                        <p class="fish__text">Forcipiger flavissimus</p>
+                        <p class="fish__text">Native to Hawaii</p>
+                        <p class="fish__text">Grows up to 22 cm long</p>
+                        <p class="fish__text">Eats coral polyps and crustaceans</p>
+                    </div>
+                    <div class="fish">
+                        <img src="./images/fish_images/queen_angelfish.jpg" alt="Queen Angelfish" class="fish__image">
+                        <p class="fish__text">Queen Angelfish</p>
+                        <p class="fish__text">Holacanthus ciliaris</p>
+                        <p class="fish__text">Native to the Carribean</p>
+                        <p class="fish__text">Grows up to 45 cm long</p>
+                        <p class="fish__text">Eats plankton and algae</p>
+                    </div>
+                    <div class="fish">
+                        <img src="./images/fish_images/luna_lionfish.jpg" alt="Luna Lionfish" class="fish__image">
+                        <p class="fish__text">Luna Lionfish</p>
+                        <p class="fish__text">Pterois lunulata</p>
+                        <p class="fish__text">Native to the Indian Ocean</p>
+                        <p class="fish__text">Grows up to 35 cm long</p>
+                        <p class="fish__text">Eats fish and crustaceans</p>
+                    </div>
+                    <div class="fish">
+                        <img src="./images/fish_images/rainbow_wrasse.jpg" alt="Rainbow Wrasse" class="fish__image">
+                        <p class="fish__text">Rainbow Wrasse</p>
+                        <p class="fish__text">Coris julis</p>
+                        <p class="fish__text">Native to the Mediterranean</p>
+                        <p class="fish__text">Grows up to 25 cm long</p>
+                        <p class="fish__text">Eats isopods, and small gastropods.</p>
+                    </div>
+                </div>
             </section>
-            <section>
-                <h3>Travel Tips</h3>
+            <section class="quotes">
+                <div class="quotes__quote">
+                    <div class="quote">
+                        <p class="quote__text">"Traveling can be quite </p>
+                        <p class="quote__text">stressful! Make sure to</p>
+                        <p class="quote__text">get your rest!"</p> 
+                    </div>
+                    <div class="quote">
+                        <p class="quote__text">"Traveling can be quite </p>
+                        <p class="quote__text">stressful! Make sure to</p>
+                        <p class="quote__text">get your rest!"</p> 
+                    </div> 
+                    <div class="quote">
+                        <p class="quote__text">"Traveling can be quite </p>
+                        <p class="quote__text">stressful! Make sure to</p>
+                        <p class="quote__text">get your rest!"</p> 
+                    </div>      
+                </div>
             </section>
-            <section>
-                <h2>Locations</h2>
+            <section class="locations">
+                <div class="locations__title">
+                    <h2>Locations</h2>
+                </div>
+                <div class="locations__location">
+                    <div class="location">
+                        <img src="./images/location_images/hawaii.jpg" alt="Hawaii" class="location__image">
+                        <p class="location__text">Hawaii</p>
+                    </div>
+                    <div class="location">
+                        <img src="./images/location_images/carribean.jpg" alt="Carribean" class="location__image">
+                        <p class="location__text">Carribean</p>
+                    </div>
+                    <div class="location">
+                        <img src="./images/location_images/indian_ocean.jpg" alt="Indian Ocean" class="location__image">
+                        <p class="location__text">Indian Ocean</p>
+                    </div>
+                    <div class="location">
+                        <img src="./images/location_images/mediterranean.jpg" alt="Mediterranean" class="location__image">
+                        <p class="location__text">Mediterranean</p>
+                    </div>
+                </div>
             </section>
         </article>
-        <aside>
-            <h3>Tank Care</h3>
-            <ul>
-                <li>Clean the tank</li>
-                <li>Test the salinity</li>
-                <li>Monitor the temperature</li>
+        <aside class="tankCare">
+            <h3 class="tankCare__title">Tank Care</h3>
+            <ul class="tankCare__list">
+                <li class="tankCare__tip">Clean the tank</li>
+                <li class="tankCare__tip">Test the salinity</li>
+                <li class="tankCare__tip">Monitor the temperature</li>
             </ul>
         </aside>
     </main>

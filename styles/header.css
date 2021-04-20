@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    background-color: #3F528D;
+    padding: 1em;
+}
+
+.header__text {
+    flex-direction: column;
+    margin: auto;
+}
+
+.header__title {
+    margin: auto;
+    font: 50px georgia, serif;
+}
+
+.header__subtitle {
+    text-align: center;
+    font: 20px helvetica, sans-serif;
+}
+
+.header__logo {
+    width: 10em;
+    height: 10em;
+}

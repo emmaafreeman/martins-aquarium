@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    background-color: #3F528D;
+    padding: 1em;
+    flex-direction: column;
+    position: relative;
+    bottom: 0px;
+}
+
+.footer__title {
+    margin: auto;
+    font: bold 25px georgia, serif;
+}
+
+.footer__text {
+    margin: auto;
+    font: 15px helvetica, sans-serif;
+}

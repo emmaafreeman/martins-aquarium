@@ -1,0 +1,21 @@
+.quote {
+    display: flex;
+    margin: 1em 1em 1em 2em;
+    flex-direction: column;
+}
+
+.quotes__quote {
+    display: flex;
+    padding: 0em 2em;
+    justify-content: space-evenly;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 0em 1em 1em 1em;
+}
+
+.quote__text {
+    margin: auto;
+}

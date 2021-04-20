@@ -1,0 +1,10 @@
+.tankCare {
+    margin: 1em 1em 2em auto;
+    background-color: #6C7680;
+    padding: 1em;
+    width: 15%;
+}
+
+.tankCare__title {
+    margin: auto;
+}
